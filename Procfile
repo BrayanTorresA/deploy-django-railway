@@ -1,1 +1,1 @@
-web: pyhon manage.py migrate && gunicorn movies.wsgi
+web: python manage.py migrate && gunicorn movies.wsgi
