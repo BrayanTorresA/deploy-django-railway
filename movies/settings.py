@@ -27,7 +27,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, ".env"))
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY ="django-insecure-n8qq#au*ae5opu@df!+7g^w%ivo8_@gb&%t6&n6#h!o-uja0lk"
+SECRET_KEY = "django-insecure-n8qq#au*ae5opu@df!+7g^w%ivo8_@gb&%t6&n6#h!o-uja0lk"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -93,7 +93,7 @@ DATABASES = {
         "PORT": env("MYSQLPORT"),
         "USER": env("MYSQLUSER"),
         "PASSWORD": env("MYSQLPASSWORD"),
-        "HOST": env("MYSQLPORT")
+        "HOST": env("MYSQLPORT"),
     }
 }
 
